@@ -1,0 +1,89 @@
+body {
+	background-image: url("../images/background.jpg")
+}
+
+div {
+	border: solid 5px black;
+	padding: 10px;
+	background-image: url("../images/bg.jpg");
+	margin: 10px;
+	width: 25%
+}
+
+h1 {
+	font-family: 'VT323', monospace;
+	font-style: bolder;
+	text-align: center;
+}
+
+h2 {
+	font-weight: bold;
+	text-align: center;
+}
+
+.head {
+	width: 50%;
+	font-family: 'VT323', monospace;
+	position: absolute;
+	left: 300px;
+	height: 15%;
+  
+}
+
+.gameInfo {
+	width: 50%;
+	font-family: 'VT323', monospace;
+	float: right;
+	position: static;
+	font-size: 20px;
+}
+
+.scores {
+	font-family: 'VT323', monospace;
+	float: center;
+	position: static;
+	width: 20%;
+	height: 100px;
+}
+.randomDiv {
+	font-family: 'VT323', monospace;
+	float: right;
+	width: 20%;
+	height: 100px;
+}
+
+.playerScore {
+	font-family: 'VT323', monospace;
+	width: 20%;
+	height: 100px;
+}
+
+.crystalwrap {
+	clear: both;
+	position: absolute;
+  	left: 30px;
+	top: 65%;
+	opacity: 0.9;
+}
+
+.crystalSize {
+	height: 65px;
+	margin: 10px;
+}
+
+.crystals {
+	height: 150px;
+	float: right;
+	
+}
+
+.crystallogo {
+	position: absolute;
+	  left: 250px;
+	  height: 100%;
+	  top: 40%;
+}
+
+.hands {
+	width: 30%;
+}
